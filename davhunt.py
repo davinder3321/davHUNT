@@ -32,7 +32,7 @@ print("\n")
 
 ############VIRUS TOTAL ###################
 virusurl = 'https://www.virustotal.com/vtapi/v2/url/report'
-params = {'apikey': '894fd4ac8941b97aacb2ac494b0347d9aae2daf7c4880a64ab57e3394e0947fc', 'resource':url}
+params = {'apikey': 'Enter your API Key here', 'resource':url}
 response = requests.post(virusurl, data=params)
 result = response.json()
 for i,j in result.items():
